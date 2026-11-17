@@ -505,6 +505,7 @@ export const HRRegistration = () => {
               </div>
             </div>
 
+
             <div className="ims-hr-registration-terms">
               <input
                 type="checkbox"
