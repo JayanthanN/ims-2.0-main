@@ -1,0 +1,768 @@
+.ims-hr-registration-page {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(to left, #ffffff 35%, #566b93 93%);
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.ims-hr-registration-left-section {
+  width: 45%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 35px 50px 0;
+}
+
+.ims-hr-registration-heading {
+  color: #ffffff;
+  font-size: 26px;
+}
+
+.ims-hr-registration-heading-text {
+  font-size: 14px;
+  font-weight: 500;
+  color: #ffffff;
+  margin: 15px 0 0;
+}
+.ims-hr-registration-illustration {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ims-hr-registration-illustration-image {
+  width: 390px;
+  height: auto;
+}
+
+.ims-hr-backbtn-align {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ims-hr-registration-talent-card {
+  width: 100%;
+  max-width: 580px;
+  height: 140px;
+  padding: 20px 30px;
+  background: #ffffffbf;
+  border-radius: 16px;
+  box-sizing: border-box;
+}
+
+.ims-hr-registration-talent-header {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.ims-hr-registration-talent-icon {
+  width: 44px;
+  height: auto;
+}
+
+.ims-hr-registration-talent-heading {
+  font-size: 16px;
+  font-weight: 500;
+  color: #132a56;
+}
+
+.ims-hr-registration-talent-description {
+  margin: 6px 0 0;
+  font-size: 12px;
+  font-weight: 500;
+  color: #111112;
+}
+
+.ims-hr-registration-progress-bar {
+  width: 100%;
+  height: 8px;
+  margin-top: 24px;
+  background: #eae7e5;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.ims-hr-registration-progress-fill {
+  width: 75%;
+  height: 100%;
+  background: #176789;
+}
+
+.ims-hr-registration-talent-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 12px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #333334;
+}
+
+.ims-hr-registration-stats {
+  display: flex;
+  gap: 30px;
+  margin: 20px;
+}
+
+.ims-hr-registration-stat-value {
+  font-size: 22px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.ims-hr-registration-stat-label {
+  margin: 3px 0 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.ims-hr-registration-right-section {
+  width: 55%;
+  height: auto;
+  padding: 35px 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ims-hr-registration-form-container {
+  width: 100%;
+  max-width: 920px;
+}
+
+.ims-hr-registration-form-title {
+  font-size: 26px;
+  font-weight: 700;
+  color: #132a56;
+}
+.ims-hr-registration-form-description {
+  font-size: 14px;
+  font-weight: 400;
+  color: #464555;
+  margin-bottom: 15px;
+}
+
+.ims-hr-registration-form-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 18px;
+}
+
+.ims-hr-registration-form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12px;
+  position: relative;
+}
+
+.ims-hr-registration-form-label {
+  font-size: 12px;
+  font-weight: 700;
+  color: #132a56;
+  margin-bottom: 8px;
+}
+
+.ims-hr-registration-required {
+  color: #f44336;
+}
+
+.ims-hr-registration-form-input,
+.ims-hr-registration-form-select {
+  width: 100%;
+  height: 45px;
+  padding: 0 12px;
+  border: 1px solid #132a5680;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+  cursor: pointer;
+}
+
+.ims-hr-registration-select-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.ims-hr-registration-select-wrapper,
+.ims-hr-registration-form-select {
+  appearance: none;
+  cursor: pointer;
+}
+
+.ims-hr-registration-dropdown-arrow {
+  width: 16px;
+  height: auto;
+  margin-top: 8px;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  right: 20px;
+  top: 12px;
+  pointer-events: none;
+}
+
+.ims-hr-registration-form-input::placeholder {
+  color: #777587;
+  font-size: 14px;
+}
+
+.ims-hr-registration-verify-input {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.ims-hr-registration-verify-input .ims-hr-registration-form-input {
+  width: 100%;
+  min-width: 0;
+  font-size: 14px;
+  height: 45px;
+  padding-right: 60px;
+}
+
+.ims-hr-registration-phone-input {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  height: 45px;
+  position: relative;
+  gap: 5px;
+}
+
+.ims-hr-registration-phone-input .ims-hr-registration-form-input {
+  width: 100%;
+  height: 45px;
+  min-width: 0;
+  font-size: 14px;
+}
+
+.ims-hr-registration-verify-button {
+  position: absolute;
+  right: 6px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #132a56;
+  color: #ffffff;
+  border: none;
+  border-radius: 9999px;
+  padding: 6px 16px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.2;
+  z-index: 2;
+  transition: all 0.2s ease;
+}
+
+.ims-hr-registration-verified {
+  background: green;
+  color: #ffffff;
+  cursor: default;
+  font-weight: 600;
+}
+
+.ims-hr-registration-country-code {
+  width: 47px;
+  height: 45px;
+  background: #ffffff;
+  border: 1px solid #132a5680;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  font-size: 15px;
+}
+
+.ims-hr-registration-company-input {
+  position: relative;
+}
+
+.ims-hr-registration-company-icon {
+  width: 20px;
+  height: auto;
+  position: absolute;
+  left: 12px;
+  top: 12px;
+}
+
+.ims-hr-registration-company-input .ims-hr-registration-form-input {
+  padding-left: 40px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.ims-hr-registration-password-wrapper {
+  position: relative;
+}
+
+.ims-hr-registration-password-icon {
+  width: 20px;
+  position: absolute;
+  right: 12px;
+  top: 15px;
+  cursor: pointer;
+}
+
+.ims-hr-registration-error {
+  font-size: 12px;
+  color: #f44336;
+  margin: 5px 0 0 5px;
+}
+
+.ims-hr-registration-error-border {
+  border: 1px solid #f44336;
+}
+
+.ims-hr-registration-terms {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+.ims-hr-registration-terms-checkbox {
+  width: 15px;
+  height: 15px;
+  margin: 3px 0 0;
+  cursor: pointer;
+}
+
+.ims-hr-registration-terms-text {
+  font-size: 13px;
+  color: #777587;
+  font-weight: 400;
+}
+
+.ims-hr-registration-terms-link {
+  color: #176789;
+}
+
+.ims-hr-registration-create-button {
+  width: 100%;
+  height: 45px;
+  background: #132a56;
+  color: #ffffff;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+  border: none;
+  margin-top: 10px;
+}
+
+.ims-hr-registration-divider {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-top: 14px;
+}
+
+.ims-hr-registration-divider-line {
+  background-color: #eae7e5;
+  height: 1px;
+  flex: 1;
+}
+
+.ims-hr-registration-divider-text {
+  font-size: 14px;
+  color: #777587;
+}
+
+.ims-hr-registration-signin-text {
+  font-size: 14px;
+  color: #777587;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.ims-hr-registration-signin-link {
+  color: #176789;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.ims-hr-registration-backbtn {
+  background: #132a56;
+  color: white;
+  padding: 10px;
+  width: 130px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1920px) {
+  .ims-hr-registration-left-section {
+    max-width: 800px;
+  }
+
+  .ims-hr-registration-right-section {
+    max-width: 1000px;
+  }
+
+  .ims-hr-registration-page {
+    display: flex;
+    height: 100%;
+    align-items: center;
+  }
+
+  .ims-hr-registration-illustration-image {
+    width: 100%;
+    max-width: 500px;
+  }
+
+  .ims-hr-registration-form-group {
+    margin-bottom: 28px;
+  }
+
+  .ims-hr-registration-form-input,
+  .ims-hr-registration-create-button {
+    height: 50px;
+  }
+
+  .ims-hr-registration-form-label,
+  .ims-hr-registration-terms-text,
+  .ims-hr-registration-signin-text {
+    font-size: 15px;
+  }
+
+  .ims-hr-backbtn-align {
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1599px) {
+  .ims-hr-registration-page {
+    gap: 20px;
+    align-items: flex-start;
+  }
+
+  .ims-hr-registration-left-section,
+  .ims-hr-registration-right-section {
+    width: 50%;
+    padding: 50px 25px 0;
+  }
+
+  .ims-hr-registration-heading,
+  .ims-hr-registration-form-title {
+    font-size: 22px;
+  }
+  .ims-hr-registration-heading-text {
+    width: 100%;
+    max-width: 500px;
+    font-size: 14px;
+  }
+
+  .ims-hr-registration-illustration-image {
+    width: 90%;
+    max-width: 390px;
+    margin: 25px 0;
+  }
+
+  .ims-hr-registration-stats {
+    margin-top: 30px;
+  }
+
+  .ims-hr-registration-form-row {
+    gap: 16px;
+  }
+
+  .ims-hr-registration-form-group {
+    margin-bottom: 15px;
+  }
+
+  .ims-hr-registration-form-label {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+
+  .ims-hr-registration-country-code {
+    font-size: 14px;
+  }
+
+  .ims-hr-registration-create-button {
+    margin-top: 25px;
+  }
+
+  .ims-hr-registration-terms-text {
+    margin-top: 2px;
+  }
+
+  .ims-hr-registration-form-input,
+  .ims-hr-registration-create-button {
+    height: 45px;
+  }
+}
+
+/* tablet */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .ims-hr-registration-left-section {
+    width: 50%;
+    padding: 30px 14px 0;
+    align-items: start;
+  }
+
+  .ims-hr-registration-right-section {
+    width: 50%;
+    padding: 0 14px;
+  }
+
+  .ims-hr-registration-heading {
+    width: 100%;
+    margin-top: 15px;
+    font-size: 18px;
+  }
+
+  .ims-hr-registration-heading-text {
+    width: 100%;
+    height: auto;
+    margin-top: 8px;
+    font-size: 12px;
+  }
+
+  .ims-hr-registration-illustration {
+    width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+  }
+
+  .ims-hr-registration-illustration-image {
+    width: 100%;
+    max-width: 290px;
+  }
+
+  .ims-hr-registration-talent-card {
+    width: 100%;
+    height: auto;
+    padding: 10px 15px;
+    border-radius: 10px;
+  }
+
+  .ims-hr-registration-talent-header {
+    gap: 8px;
+  }
+
+  .ims-hr-registration-talent-icon {
+    width: 28px;
+    min-width: 28px;
+    height: auto;
+  }
+
+  .ims-hr-registration-talent-heading {
+    font-size: 10px;
+  }
+
+  .ims-hr-registration-talent-description {
+    margin: 0;
+    font-size: 9px;
+  }
+
+  .ims-hr-registration-progress-bar {
+    margin-top: 15px;
+    height: 5px;
+  }
+
+  .ims-hr-registration-talent-footer {
+    margin-top: 8px;
+    font-size: 8px;
+  }
+
+  .ims-hr-registration-stats {
+    gap: 18px;
+    margin: 30px 10px 10px 0;
+  }
+
+  .ims-hr-registration-stat-value {
+    font-size: 15px;
+    font-weight: 550;
+  }
+
+  .ims-hr-registration-stat-label {
+    font-size: 8px;
+    font-weight: 500;
+  }
+
+  .ims-hr-registration-form-title {
+    font-size: 20px;
+  }
+
+  .ims-hr-registration-form-description {
+    width: 100%;
+    font-size: 10px;
+  }
+
+  .ims-hr-registration-form-container {
+    width: 100%;
+    max-width: none;
+    min-width: 0;
+  }
+
+  .ims-hr-registration-form-row {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 8px;
+  }
+
+  .ims-hr-registration-form-group {
+    min-width: 0;
+    margin-bottom: 12px;
+    gap: 5px;
+  }
+
+  .ims-hr-registration-form-label {
+    display: block;
+    margin: 0;
+    font-size: 10px;
+  }
+
+  .ims-hr-registration-verify-button,
+  .ims-hr-registration-verified {
+    width: 38px;
+    height: 24px;
+    right: 6px;
+    font-size: 9px;
+  }
+
+  .ims-hr-registration-country-code {
+    width: 35px;
+    height: 32px;
+    border-radius: 5px;
+    font-size: 10px;
+  }
+
+  .ims-hr-registration-dropdown-arrow {
+    top: 7px;
+    width: 8px;
+    right: 10px;
+  }
+
+  .ims-hr-registration-dropdown-arrow-role {
+    top: 8px;
+    width: 16px;
+    right: 10px;
+  }
+
+  .ims-hr-registration-password-icon {
+    top: 50%;
+    right: 10px;
+    width: 11px;
+    height: auto;
+    transform: translateY(-50%);
+  }
+
+  .ims-hr-registration-company-icon {
+    top: 10px;
+    width: 12px;
+    left: 8px;
+  }
+
+  .ims-hr-registration-create-button {
+    width: 100%;
+    height: 32px;
+    border-radius: 5px;
+    font-size: 10px;
+  }
+
+  .ims-hr-registration-terms-text,
+  .ims-hr-registration-signin-text,
+  .ims-hr-registration-divider-text {
+    font-size: 10px;
+  }
+
+  .ims-hr-registration-terms-checkbox {
+    width: 12px;
+    height: 12px;
+    margin: 1px 0 0;
+  }
+
+  .ims-hr-registration-error {
+    margin-top: 1px;
+    font-size: 8px;
+  }
+
+  .ims-hr-registration-divider-text {
+    margin-bottom: 20px;
+  }
+
+  .ims-hr-registration-divider {
+    margin-top: 10px;
+  }
+
+  .ims-hr-registration-form-group input,
+  .ims-hr-registration-form-group input[type="text"],
+  .ims-hr-registration-form-group input[type="email"],
+  .ims-hr-registration-form-group input[type="tel"],
+  .ims-hr-registration-form-group input[type="password"],
+  .ims-hr-registration-verify-input input,
+  .ims-hr-registration-phone-input input,
+  .ims-hr-registration-company-input input,
+  .ims-hr-registration-password-wrapper input,
+  .ims-hr-registration-form-input {
+    width: 100%;
+    height: 32px;
+    padding: 0 10px;
+    border-radius: 5px;
+    font-size: 10px;
+  }
+
+  .ims-hr-registration-form-group
+    .ims-hr-registration-company-input
+    input[type="text"] {
+    padding-left: 25px;
+  }
+
+  .ims-hr-registration-form-input::placeholder {
+    font-size: 10px;
+  }
+
+  .ims-hr-registration-form-select {
+    width: 100%;
+    height: 32px;
+    padding: 0 8px;
+    font-size: 10px;
+    border-radius: 5px;
+  }
+
+  .ims-hr-registration-phone-input,
+  .ims-hr-registration-select-wrapper {
+    height: 32px;
+    min-height: 32px;
+    position: relative;
+  }
+
+  .ims-hr-registration-phone-input {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .ims-hr-registration-terms {
+    align-items: center;
+    margin-top: 6px;
+  }
+
+  /* Registering as dropdown */
+  .ims-hr-registration-select-wrapper {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+
+  .ims-company-registration-form-drop-down {
+    width: 100%;
+    height: 32px;
+    padding: 0 40px 0 14px;
+    border-radius: 5px;
+    font-size: 10px;
+  }
+}
